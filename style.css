@@ -3,6 +3,7 @@ body {
   text-align: center;
   font-family: monospace;
   background-color: black;
+  font-color: white;
 }
 
 button {
@@ -21,10 +22,10 @@ button {
   font-color: black;
 }
 
-button:hover {background-color: #3e8e41}
+button:hover {background-color: white}
 
 button:active {
-  background-color: #3e8e41;
+  background-color: white;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
