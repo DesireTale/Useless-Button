@@ -3,11 +3,16 @@
   <head>
     <title> Useless Button </title>
     <link rel="stylesheet" href="style.css">
-    <script src="code.js"></script>
   </head>
   <body>
-    <div class="main">
-      <button id="clickme">Click me: 0</button>
-    </div>
+     <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button class="button" onClick="click()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
   </body>
 </html>
