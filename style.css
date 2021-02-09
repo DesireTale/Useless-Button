@@ -1,9 +1,11 @@
 body {
   margin: 100px auto;
   text-align: center;
-  font-family: monospace;
+  font-family:Impact, Charcoal, sans-serif;
   background-color: black;
   font-color: white;
+  font-weight:80;
+  text-shadow: 1px 5px white;
 }
 
 button {
@@ -30,4 +32,9 @@ button:active {
 }
 #clicks {
  color: white; 
+}
+.heading {
+    font-size: 80px;
+  text-decoration-line:underline;
+  text-decoration-style: single;
 }
