@@ -4,12 +4,15 @@ body {
   font-family:Impact, Charcoal, sans-serif;
   background-color: black;
   font-color: white;
-  font-weight:80;
+  font-weight:900;
   text-shadow: 1px 5px white;
 }
 
 button {
   font-family:Impact, Charcoal, sans-serif;
+  font-color: white;
+  font-weight:900;
+  text-shadow: 1px 5px white;
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -17,7 +20,6 @@ button {
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: white;
   background-color: black;
   border: none;
   border-radius: 15px;
