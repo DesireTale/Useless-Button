@@ -10,9 +10,15 @@
     <script type="text/javascript">
     var clicks = 0;
     function hello() {
-        var audio = new Audio('newClick.mp3');
+        var b = randomNumber(1, 100)
+        if (b = 69) {
+        var audio = new Audio('hentaiMoan.mp3');
         audio.play();
-       
+     } else {
+           var audio = new Audio('newClick.mp3');
+        audio.play();
+
+
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
     };
