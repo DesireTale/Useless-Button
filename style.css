@@ -41,3 +41,6 @@ button:active {
   text-decoration-line:underline;
   text-decoration-style: single;
 }
+.secret {
+ color:black; 
+}
