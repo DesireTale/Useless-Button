@@ -5,7 +5,7 @@ body {
   background-color: black;
   font-color: white;
   font-weight:900;
-  text-shadow: 1px 5px white;
+  text-shadow: 0px 5px white;
 }
 
 button {
@@ -23,10 +23,10 @@ button {
   background-color: black;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px rgb(255 255 255);
+  box-shadow: 0 10px rgb(255 255 255);
 }
 
-button:hover {background-color: black}
+button:hover {background-color: rgba(10,10,10}
 
 button:active {
   background-color: black;
@@ -37,10 +37,13 @@ button:active {
  color: black; 
 }
 .heading {
-    font-size: 80px;
+  font-size: 80px;
   text-decoration-line:underline;
   text-decoration-style: single;
 }
 .secret {
  color:black; 
+   text-shadow: 0 0px rgb(0,0,0); 
+   text-decoration-line:none;
+   text-decoration-style: none;
 }
