@@ -1,4 +1,4 @@
-body {
+.count {
   margin: 100px auto;
   text-align: center;
   font-family:Impact, Charcoal, sans-serif;
@@ -42,8 +42,8 @@ button:active {
   text-decoration-style: single;
 }
 .secret {
- color:black; 
-   text-shadow: 0 0px rgb(0,0,0); 
-   text-decoration-line:none;
-   text-decoration-style: none;
+ 	color:black; 
+  text-shadow: 0 0px rgb(0,0,0); 
+  text-decoration-line:none;
+  text-decoration-style: none;
 }
